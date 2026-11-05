@@ -33,7 +33,7 @@ settings before relying on scheduled feeding.
 - NodeMCU v3 development board (ESP8266)
 - DRV8833 dual motor driver
 - DS3231 real-time clock module with backup battery
-- Two DC motors and suitable feeder mechanisms
+- Two N20 geared DC motors and suitable feeder mechanisms
 - A separate motor power supply appropriate for the motors and driver
 
 ### Wiring
@@ -62,6 +62,22 @@ testing. Before connecting it, verify the motor wiring and direction, secure
 the feeder mechanism, and test the run duration and speed with the feeder
 under supervision. Tune speed carefully; a motor may stall at low PWM
 depending on its load and supply.
+
+## 3D-printed feeder parts
+
+The feeder mechanism was 3D printed from STL models in
+[`Automatic Fish Feeder with gear solution/files/`](<Automatic Fish Feeder with gear solution/files/>):
+
+- [Feeder body](<Automatic Fish Feeder with gear solution/files/fish_feeder_body.stl>)
+- [Screw](<Automatic Fish Feeder with gear solution/files/fish_feeder__screw.stl>)
+- [Drill shaft](<Automatic Fish Feeder with gear solution/files/fish_feeder_drill.stl>)
+- [Gear chamber](<Automatic Fish Feeder with gear solution/files/fish_feeder_gear_chamber_1.stl>)
+- [Small gear](<Automatic Fish Feeder with gear solution/files/fish_feeder_small_gear.stl>)
+
+The mechanical design is by [Steve5092 on Thingiverse](https://www.thingiverse.com/thing:2939568)
+and is provided under a Creative Commons Attribution license. Please retain
+the original designer's credit and license when sharing or adapting the
+design.
 
 ## Setup
 
