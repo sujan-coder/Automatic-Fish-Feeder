@@ -1,4 +1,4 @@
-# Bluefin Fish Feeder
+# Fish Feeder
 
 Bluefin is a Wi-Fi-enabled automatic fish feeder built around a NodeMCU v3
 (ESP8266). Its local web dashboard controls two feeder motors and lets you
